@@ -8,7 +8,7 @@ function getUserScribble() {
     var scribble = localStorage.getItem('userScribble');
   }
   else {
-    var scribble = 'You can scribble directly on this sticky... and I will also remember your message the next time you visit my blog!';
+    var scribble = 'You can scribble here!';
   }
   document.getElementById('scribble').innerHTML = scribble;
 }
